@@ -1,0 +1,96 @@
+/* Estilos para el fondo y la tipografía */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #121212; /* Fondo oscuro */
+  color: #f5f5f5; /* Letras claras */
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  text-align: center;
+  background: #1e1e1e; /* Fondo oscuro del contenedor */
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+  padding: 30px;
+  max-width: 500px;
+  width: 90%;
+}
+
+h1, h2, h3 {
+  margin: 10px 0;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+button:disabled {
+  background-color: #444;
+  cursor: not-allowed;
+}
+
+button:not(:disabled):hover {
+  transform: scale(1.05);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.4);
+}
+
+button.start-game {
+  background-color: #007bff;
+  color: white;
+}
+
+button.start-game:disabled {
+  background-color: #555;
+}
+
+.clicker-area {
+  background-color: #28a745;
+  color: white;
+  font-size: 1.5rem;
+  border: none;
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+  margin: 20px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.clicker-area:disabled {
+  background-color: #555;
+  cursor: not-allowed;
+}
+
+.clicker-area:not(:disabled):hover {
+  transform: scale(1.1);
+}
+
+.status {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.status.ready {
+  color: orange;
+}
+
+.status.set {
+  color: blue;
+}
+
+.status.go {
+  color: green;
+}
