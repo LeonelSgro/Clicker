@@ -13,5 +13,5 @@ Este es un juego simple de contador hecho con React.
    - Arrancar la aplicación en modo de desarrollo con `npm start` 
 
 4. **Uso del juego**:
- Debe hacer click en el boton comenzar y luego de la cuenta regresiba tiene que clickear tantas veces como pueda
- dentro del boton central para conseguir la mayor puntuacion posible.
+ Debe hacer click en el boton comenzar y luego de la cuenta regresiva. 
+Tiene que clickear tantas veces como puedadentro del boton central para conseguir la mayor puntuacion posible.
